@@ -53,6 +53,7 @@ LOCAL_PACKAGE_NAME := AicpExtras
 LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PRODUCT_MODULE := true
 
 include frameworks/base/packages/SettingsLib/common.mk
 
