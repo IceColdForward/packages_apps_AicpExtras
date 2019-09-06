@@ -48,7 +48,7 @@ public abstract class BaseActivity extends Activity {
     }
 
     protected int getThemeRes() {
-        int themePref = Settings.System.getInt(getContentResolver(), Settings.System.AE_THEME, 0);
+        int themePref = 0;//Settings.System.getInt(getContentResolver(), Settings.System.AE_THEME, 0);
         switch (themePref) {
             /*
             case 1:
